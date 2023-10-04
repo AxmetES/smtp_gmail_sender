@@ -17,13 +17,10 @@ The project makes use of the following technologies:
 #### Prepare ur google account
 In the POP/IMAP forwarding section of your Gmail mailbox, switch the IMAP status to enabled.
 ![imap.png](app%2Fmedia%2Fimap.png)
-In the security section of your Google account, enable
-add Two-Step Verification.
+In the security section of your Google account, enable add Two-Step Verification.
 ![safety.png](app%2Fmedia%2Fsafety.png)
 ![two-factor authentication.png](app%2Fmedia%2Ftwo-factor%20authentication.png)
-Also, in the two-step 
-verification section at the bottom, create an
-application password.
+Also, in the two-step verification section at the bottom, create an application password.
 ![app_password.png](app%2Fmedia%2Fapp_password.png)
 
 #### Clone projects: 
@@ -32,7 +29,7 @@ application password.
 
 #### Move to directory:
 
-```cd Docker_FastAPI_Mail_sendler/app/```
+```cd Docker_FastAPI_Mail_sendler/```
 
 #### Add .env file
 
