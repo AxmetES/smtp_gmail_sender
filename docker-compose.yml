@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    restart: always
+    container_name: fastapi-app
+    ports:
+      - "8000:8000"
+    environment:
+      STMP_USERNAME: ${STMP_USERNAME}
+      STMP_PASSWORD: ${STMP_PASSWORD}
+
+    logging:
+      driver: "journald"
+      options:
+        tag: "{{.Name}}"
