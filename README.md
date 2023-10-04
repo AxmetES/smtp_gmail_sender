@@ -1,6 +1,16 @@
-# Docker Fastapi Mail Sendler
+# Mail Sendler
+## Project Description
 Job test project, send email by fastapi use gmail stmp server.
 
+### Technologies
+
+The project makes use of the following technologies:
+
+- Python 3.11.4
+- Docker version 24.0.5
+- Docker Compose version v2.17.2
+- Python 3.11.4
+- FastAPI 0.95.2
 
 ## Getting started
 
